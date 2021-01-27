@@ -2,8 +2,7 @@
 
 
 
-### **Java Script Defintion:** 
-
+### **Java Script Defintion:**
 it's a programming language that is understandable by the developer and the browser which use instructions and step to accomplish a predefined goal.
 
 ### **To write a script we have three main tasks:**
@@ -22,7 +21,10 @@ there are two types of expressions, the first is assign one value to a variable 
 **Operators:** Expressions rely on something called operators,  they allow programmers to
 create a single value from one or more values. 
 
+#### Types of Operators : 
 
+- Arithmatics Operators: Mathmatical Operators like addition, subtraction and division
+- Logic Operators: Which has one value from the two values True or False 
 
 
  
