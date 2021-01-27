@@ -13,7 +13,7 @@ it's a programming language that is understandable by the developer and the brow
 
 3. Code each step : the last step is to code each step to get the full code 
 
-### **- Expressions and Operators :**
+### **Expressions and Operators**
 
 **Expressions:** An expression evaluates into a single value.
 there are two types of expressions, the first is assign one value to a variable and the second type is the expression which assign two or more values to a variable 
@@ -25,6 +25,7 @@ create a single value from one or more values. 
 
 - Arithmatics Operators: Mathmatical Operators like addition, subtraction and division
 - Logic Operators: Which has one value from the two values True or False 
+- String Operator: There is just one string operator: the+ symbol. It is used to join the strings on either side of it. 
 
 
  
