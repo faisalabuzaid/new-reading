@@ -1,21 +1,24 @@
-var distance = prompt("To get the best TV size, enter how far  you sit from the screen?", "In meters please");
+var smart = prompt("Is Your TV smart ? Answer by YES or NO only");
   
-if (distance <= 2 && distance > 0) {
-      var tvsize = "<h3> 43 inch is the best for you </h3>";}
-  
-  else if (distance >2 && distance <= 4) {
-    var tvsize = "<h3> 50-55 inch is the best for you </h3>";    
-  }
-  
-  
-else if (distance > 4 && distance <= 6) {
-    var tvsize = "<h3> You need 60 inch or bigger </h3>";
-  }
-else  {
-    var tvsize = "<h3> Please Enter a Number Between 1 and 6 </h3>";
-    
+
+  while (smart !== 'YES' && smart !== 'NO') {
+smart=prompt("Is Your TV smart ? Answer by YES or NO only");
   }
 
-  document.write (tvsize);
-  confirm("Hope You Benefit from our Service");
+  var tvtype = '';
+
+  if (smart === 'YES') {
+    tvtype='<img src="images/SmartTV.png"/>';
+  } else if (smart === 'NO') {
+    tvtype='<img src="images/NormalTV.png"/>';
+  }
+
+var starrate = prompt('what star rating wil you give us ? from 1-5');
+var result ='';
+for(var i = 0; i < starrate; i++) {
+  result = result + tvtype
+}
+  document.write (result);
+
+  confirm("Hope You Benefit from our")
   
