@@ -1,3 +1,13 @@
+function getname() {
+var x = prompt('Enter your first name');
+var y = prompt('Enter your family name');
+var fullname = 'Welcome to our website ' + x + y
+document.write(fullname);
+}
+
+getname();
+
+
 var smart = prompt("Is Your TV smart ? Answer by YES or NO only");
   
 
@@ -19,6 +29,4 @@ for(var i = 0; i < starrate; i++) {
   result = result + tvtype
 }
   document.write (result);
-
-  confirm("Hope You Benefit from our")
   
